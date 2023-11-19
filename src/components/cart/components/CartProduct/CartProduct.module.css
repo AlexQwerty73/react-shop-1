@@ -1,0 +1,52 @@
+.product {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.product * {
+  margin-right: 10px;
+}
+
+.qtyChange span {
+  cursor: pointer;
+  font-weight: bold;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.qtyChange span:hover {
+  background-color: #eee;
+}
+
+.qty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.qtyInput {
+  width: 50px;
+
+  text-align: center;
+}
+
+.qtyChange {
+  display: flex;
+  flex-direction: column;
+}
+
+.qtyChange span {
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  padding: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
