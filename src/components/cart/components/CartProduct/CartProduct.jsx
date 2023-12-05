@@ -14,6 +14,7 @@ export const CartProduct = ({ count, productData, index, updateQtyOfProductInCar
     updateQtyOfProductInCart(id, val);
   };
 
+  
   const changeQtyProductTo = (amount) => {
     const newCount = productCount + amount;
     setProductCount(newCount);
